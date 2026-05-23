@@ -31,28 +31,28 @@ const plans = [
 		name: 'Plus',
 		description:
 			'For solo builders who want faster throughput and higher limits.',
-		monthly: 20,
-		yearly: 16,
+		monthly: 191,
+		yearly: 32,
 		cta: 'Choose Plus',
 		highlight: true,
 		badge: 'Most popular',
 		features: [
-			'10x higher rate limits',
-			'Priority responses',
-			'Early access to new tools',
+			'100x higher rate limits',
+			'Priority responses 24/7',
+			'Early access to all the new tools',
 		],
 	},
 	{
 		name: 'Pro',
 		description:
 			'For teams shipping production workflows and advanced controls.',
-		monthly: 40,
-		yearly: 32,
+		monthly: 421,
+		yearly: 100,
 		cta: 'Talk to sales',
 		highlight: false,
 		features: [
-			'Dedicated support',
-			'Advanced guardrails',
+			'Dedicated support 24/7',
+			'Advanced guardrails security',
 			'Admin controls and SSO',
 		],
 	},
@@ -82,7 +82,7 @@ const featurePills = [
 ];
 
 const comparison = [
-	['Daily usage', '2k tokens', '50k tokens', '200k tokens'],
+	['Daily usage', '5k tokens', '50k tokens', '200k tokens'],
 	['Priority support', 'Community', 'Priority', 'Dedicated'],
 	['Advanced tools', 'Basic', 'Included', 'Included + admin'],
 	['Custom policies', '—', 'Limited', 'Full'],
@@ -127,13 +127,9 @@ function App() {
 			<main className="mx-auto max-w-6xl px-6 pb-16 pt-4 sm:pt-8">
 				<section className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
 					<div>
-						<p className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-3 py-1 text-sm text-sky-100">
+						<h1 className="inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-3 py-1 text-sm text-sky-100">
 							<Sparkles className="h-4 w-4" />
-							Trusted by product teams, startups, and research groups
-						</p>
-
-						<h1 className="mt-6 text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-[3.4rem] lg:leading-[1.02]">
-							Build faster with a pricing model that scales with your ambition.
+							Trusted by product teams, startups, and design-led crews
 						</h1>
 
 						<p className="mt-5 max-w-2xl text-base leading-7 text-slate-200 sm:text-lg">
